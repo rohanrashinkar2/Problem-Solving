@@ -17,9 +17,11 @@ public:
 
 
 Case 1 : 
-nums = [0,0,1,1,1,2,2,3,3,4]
+nums = [0,0,1,1,1,2,2,3,3,4] , We have to modify array and return the size until which it is unique.
 
 1.) i = 0 ,  j = 2.   As nums[i] = 0 !=  nums[j] = 1 , as they are different we increment i++, i = 1  and store nums[1] as 1
 2.) i = 1 ,  j = 5.   As nums[i] = 1 !=  nums[j] = 2 , as they are different we increment i++, i = 2  and store nums[2] as 2
 3.) i = 2 ,  j = 7.   As nums[i] = 2 !=  nums[j] = 3 , as they are different we increment i++, i = 3  and store nums[3] as 3
 4.) i = 3 ,  j = 9.   As nums[i] = 3 !=  nums[j] = 4 , as they are different we increment i++, i = 4  and store nums[4] as 4
+
+we will return i as 5.
