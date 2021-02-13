@@ -16,6 +16,8 @@ public:
 
 
 
+
+
 Case 1 : 
 nums = [0,0,1,1,1,2,2,3,3,4] , We have to modify array and return the size until which it is unique.
 
@@ -25,3 +27,4 @@ nums = [0,0,1,1,1,2,2,3,3,4] , We have to modify array and return the size until
 4.) i = 3 ,  j = 9.   As nums[i] = 3 !=  nums[j] = 4 , as they are different we increment i++, i = 4  and store nums[4] as 4
 
 we will return i as 5.
+link Problem : https://leetcode.com/problems/remove-duplicates-from-sorted-array/
