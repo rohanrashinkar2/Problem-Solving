@@ -1,0 +1,14 @@
+class Solution {
+public:
+    bool containsDuplicate(vector<int>& nums) {
+       int a = set(nums.begin(),nums.end()).size();
+       int b = nums.size();
+       return(a == b ? 0 : 1);
+    }
+};
+
+
+Logic:
+
+Just Check size of unique element and actual size of the vector.
+Match their sizes if they are not same than their is duplicate.  
